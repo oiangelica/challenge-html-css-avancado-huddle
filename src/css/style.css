@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     font-size: 62.5%;
     background: url(../image/bg-desktop.png) no-repeat;
@@ -6,32 +6,38 @@ body{
     background-size: cover;
     background-color: var(--violet);
     max-width: 1440px;
+    margin: auto;
 }
-.container{
+
+.container {
     display: grid;
-    grid: "column-1 column-2" 95%
-           "social social" 5%
-            /60% 40%;
+    grid: "column-1 column-2" 95% "social social" 5% /60% 40%;
+    margin: auto;
 }
-.column-1{
+
+.column-1 {
     grid-area: column-1;
     display: flex;
     flex-shrink: 1;
     justify-content: center;
     flex-direction: column;
-    margin: 80px 80px 0px;
+    margin:30px;
 }
-.column-1 .logo{
+
+.column-1 .logo {
     padding-bottom: 60px;
 }
-.column-1 .div-img{
-display: flex;
+
+.column-1 .div-img {
+    display: flex;
 }
-.column-1 .div-img .illustration-mockups{
+
+.column-1 .div-img .illustration-mockups {
     flex-shrink: 1;
-    min-width: 400px
+    min-width: 400px    
 }
-.column-2{
+
+.column-2 {
     display: flex;
     flex-shrink: 1;
     flex-direction: column;
@@ -41,44 +47,52 @@ display: flex;
     padding-right: 20px;
     grid-area: column-2;
 }
-.column-2 h1{
+
+.column-2 h1 {
     display: flex;
     flex-shrink: 1;
     font-family: 'Poppins', sans-serif;
     font-size: 2.6rem;
     line-height: 4rem;
-    padding-right:50px;
+    padding-right: 50px;
 }
-.column-2 p{
+
+.column-2 p {
     display: flex;
     flex-shrink: 1;
     padding: 30px 0;
     font-size: 1.2rem;
 }
-.column-2 .button{
+
+.column-2 .button {
     display: flex;
 }
-.column-2 .button a{   
-    text-align:right;
+
+.column-2 .button a {
+    text-align: right;
     font-size: 1.3rem;
-    padding: 20px 70px;
+    padding: 10px 60px;
     border-radius: 50vh;
+    box-shadow: 5px 5px 15px #35255a;
     background-color: #fff;
     color: var(--violet);
     transition: 0.4s;
 }
-.column-2 .button a:hover{
+
+.column-2 .button a:hover {
     background-color: var(--soft-magenta);
     color: var(--default-color-font);
 }
-.social{
+
+.social {
     grid-area: social;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     padding-right: 20px;
 }
-.social nav a{
+
+.social nav a {
     color: var(--default-color-font);
     font-size: 1.5rem;
     border-radius: 50%;
@@ -87,10 +101,12 @@ display: flex;
     margin: 10px;
     transition: 0.3s;
 }
-.social nav a:first-child{
+
+.social nav a:first-child {
     padding: 10px 20px;
 }
-.social nav a:hover{
+
+.social nav a:hover {
     color: var(--soft-magenta);
     border-radius: 50%;
     border: 1px solid var(--soft-magenta);
