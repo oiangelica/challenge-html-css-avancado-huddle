@@ -8,9 +8,6 @@ Depois de ler pontos que precisava melhorar comecei o processo de corrigir a ide
 
 <p>🚀 Fiquei muito feliz com o resultado e sigo estudando para melhorar mais a cada dia! 🚀 </p>
 
-
-
-
 ## Tecnologias utilizadas
 - HTML
 - CSS
